@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>As WINX</title>
+    <link rel="icon" href="https://logodix.com/logo/516361.png" type="img.webp-icon">
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Times New Roman', Times, serif; 
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+    }
+
+    .sidebar {
+      height: 100vh;
+      width: 250px;
+      background-color: #ff69b4;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding-top: 40px;
+      padding-left: 20px;
+    }
+
+    .sidebar a {
+      font-size: 1.5rem;
+      color: white;
+      text-decoration: none;
+      display: block;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #fff;
+      transition: background-color 0.3s;
+    }
+
+    .sidebar a:hover {
+      background-color: #ff80bf;
+      padding-left: 15px;
+    }
+
+    .content {
+      margin-left: 250px;
+      padding: 20px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #ff69b4;
+    }
+
+    .top-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      gap: 20px;
+    }
+
+    .top-container img {
+        width: 200px; 
+      height: auto;
+      border-radius: 10px;
+      margin-left: 40px;
+        
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      display: block;
+      margin-left: auto;
+    }
+
+    .anchors {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .anchors a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #ff69b4;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .anchors a:hover {
+      background-color: #ff80bf;
+      color: white;
+    }
+
+    .anchor-row {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ff69b4;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 200px;
+        padding-top: 20px;
+      }
+
+      .sidebar a {
+        font-size: 1.2rem;
+      }
+
+      .content {
+        margin-left: 200px;
+      }
+
+      .top-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .anchors {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <a href="historiadaswinx.html">História</a>
+  </div>
+
+  <div class="content">
+ 
+    <header>
+      <h1>Clube das Winx</h1>
+    </header>
+
+    <div class="top-container">
+      <img src="http://images4.fanpop.com/image/photos/15400000/winx-club-the-winx-club-15427186-1024-768.jpg" alt="Imagem à Esquerda">
+      <img class="logo" src="https://logodix.com/logo/516361.png" alt="Logo">
+    </div>
+
+    <div class="anchors">
+      <a href="#principal">Conheça um pouco mais sobre as WINX</a>
+    </div>
+
+    <div class="anchors">
+      <div class="anchor-row">
+        <a href="index2.html">flora</a>
+        <a href="index3.html">stella</a>
+        <a href="index4.html">musa</a>
+      </div>
+      <div class="anchor-row">
+        <a href="index5.html">layla</a>
+        <a href="index6.html">tecna</a>
+        <a href="index7.html">bloom</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Meu Site - professora Eliane</p>
+  </footer>
+
+</body>
+</html>
